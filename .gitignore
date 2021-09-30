@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools
+coverage
+*.lcov
+lib-cov
+
+# Compiled binary addons
+build/Release
+
+# Output
+*.tgz
+
+# environment variables file
+.env
+.env.test
+
+# generate output
+dist
+
+# Dependency directories
