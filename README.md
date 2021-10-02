@@ -15,6 +15,10 @@ Por ello tendremos dos tipos de documentos:
 
 ### Descripción de Where to Watch
 
+Hoy en día hay multitud de plataformas de streaming por internet que ofrecen entretenimiento. Ante dicha oferta, los usuarios a veces se encuentran con el problema de saber en que plataforma pueden encontrar el contenido deseado.
+
+Se puede ver como **Where To Watch** plantea una solución al respecto en la [documentación del proyecto](./documentation).
+
 ### Documentación adicional
 
 En [cc/0](./cc/0) se puede encontrar la documentación adicional relacionada con el Hito 0 de la asignatura.
