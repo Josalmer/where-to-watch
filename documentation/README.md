@@ -28,6 +28,8 @@ Para ayudar a entener mejor la filosofía del proyecto y lo que se pretende cons
 
 ## Descripción del Software
 
+El sistema analizará textos de las webs de streaming (que no disponen de API pública) para identificar el contenido que esta publicado en cada una, actualizando de esta forma la base de datos del sistema. Dichos análisis serán ejecutados en segundo plano en los horarios de menor actividad de lo usuarios del sistema.
+
 Se ofrece el servicio a los usuarios a través de una página web donde pueden realizar búsquedas del contenido deseado. Cuando se encuentra el contenido el usuario puede ver información de que en plataformas esta disponibles.
 
 También podrá acceder a un listado de todo el contenido ordenado por categorías.
