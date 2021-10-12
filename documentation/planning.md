@@ -34,3 +34,8 @@ El [primer Milestone](https://github.com/Josalmer/where-to-watch/milestone/1) de
 >Representa en el sistema a las distintas plataformas de Streaming
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
+
+* [T-05](https://github.com/Josalmer/where-to-watch/issues/13): Crear relación Content-StreamingPlatform
+>Crear relación Content <--> StreamingPlatform
+>
+>Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
