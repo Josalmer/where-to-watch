@@ -44,3 +44,8 @@ El [primer Milestone](https://github.com/Josalmer/where-to-watch/milestone/1) de
 >Representa las búsquedas realizadas por los usuarios en el sistema
 >
 >Related to: [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
+
+* [T-07](https://github.com/Josalmer/where-to-watch/issues/15): Crear relación Seach - StreamingPlatformContent
+>Crear relación Search <--> StreamingPlatformContent
+>
+>Related to: [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
