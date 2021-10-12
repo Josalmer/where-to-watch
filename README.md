@@ -22,3 +22,9 @@ Se puede ver como **Where To Watch** plantea una solución al respecto en la [do
 ### Documentación adicional
 
 En [cc/0](./cc/0) se puede encontrar la documentación adicional relacionada con el Hito 0 de la asignatura.
+
+## Hito 1
+
+### Historias de usuario
+
+Se definen 4 historias de usuario iniciales en [Historias de Usuario](./documentation/hu.md).
