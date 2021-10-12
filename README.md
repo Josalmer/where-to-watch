@@ -34,3 +34,7 @@ Se definen 4 historias de usuario iniciales en [Historias de Usuario](./document
 En el documento de [Planificación](./documentation/planning.md) se realiza la planificación de los 3 primeros milestones del proyecto.
 
 En cada uno de ellos se añaden tareas extraídas de las [Historias de Usuario](./documentation/hu.md) previamente especificadas.
+
+### Diseño
+
+En el documento de [Diseño](./documentation/design.md) se puede ver como se ha diseñado el sistema. ([T-01: Diseñar modelo de datos para el sistema](https://github.com/Josalmer/where-to-watch/issues/9))
