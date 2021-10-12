@@ -19,3 +19,8 @@ El [primer Milestone](https://github.com/Josalmer/where-to-watch/milestone/1) de
 >Así como sus principales atributos y las relaciones entre los mismos.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
+
+* [T-02](https://github.com/Josalmer/where-to-watch/issues/10): Crear modelo Category
+>Representa a las categorías del contenido del sistema, el contenido podrá pertenecer a una o más categorías.
+>
+>Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
