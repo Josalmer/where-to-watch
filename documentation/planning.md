@@ -63,3 +63,12 @@ El [segundo Milestone](https://github.com/Josalmer/where-to-watch/milestone/2) d
 >Implementar el algoritmo particular de scrapeo para **Netflix**, añadirá los próximos lanzamientos (hasta tres meses desde fecha actual) y actualizará las bajas de contenido del sistema.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
+
+## Milestone 3
+
+El [tercer Milestone](https://github.com/Josalmer/where-to-watch/milestone/3) del proyecto tiene como objetivo extender el funcionamiento del sistema de scrapeo para añadir el funcionamiento con **Amazon Prime Video**.
+
+* [T-10](https://github.com/Josalmer/where-to-watch/issues/18): Implementar el algoritmo de scraping en **Amazon Prime Video**
+>Implementar el algoritmo particular de scrapeo para **Amazon Prime Video**, añadirá los próximos lanzamientos (hasta tres meses desde fecha actual) y actualizará las bajas de contenido del sistema.
+>
+>Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
