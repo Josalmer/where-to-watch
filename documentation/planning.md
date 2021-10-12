@@ -49,3 +49,12 @@ El [primer Milestone](https://github.com/Josalmer/where-to-watch/milestone/1) de
 >Crear relación Search <--> StreamingPlatformContent
 >
 >Related to: [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
+
+## Milestone 2
+
+El [segundo Milestone](https://github.com/Josalmer/where-to-watch/milestone/2) del proyecto tiene como objetivo diseñar e implementar el sistema de scrapeo para obtener los datos necesarios para el sistema. Funcionamiento con **Netflix**.
+
+* [T-08](https://github.com/Josalmer/where-to-watch/issues/16): Crear interfaz del servicio de Scraping
+>Representa la interfaz que implementarán cada uno de los servicios de scraping que se implementaran para cada plataforma de streaming.
+>
+>Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
