@@ -39,3 +39,8 @@ El [primer Milestone](https://github.com/Josalmer/where-to-watch/milestone/1) de
 >Crear relación Content <--> StreamingPlatform
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
+
+* [T-06](https://github.com/Josalmer/where-to-watch/issues/14): Crear modelo Search
+>Representa las búsquedas realizadas por los usuarios en el sistema
+>
+>Related to: [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
