@@ -12,6 +12,8 @@ En este documento se especifican las distintas **Historias de Usuario** que desc
 >
 >Una vez encontrado el contenido deseado se podrá acceder a la vista del mismo, en la cual se podrá consultar en que plataformas de streaming esta disponible el mismo.
 
-* HU-02: Como usuario, necesito poder conocer que plataforma de streaming ofrece la mayor parte del contenido buscado por los usuarios.
+* [HU-02](https://github.com/Josalmer/where-to-watch/issues/6): Como usuario, necesito poder conocer que plataformas de streaming ofrecen la mayor parte del contenido buscado por los usuarios.
+>Como usuario, necesito poder conocer que plataformas de streaming ofrecen la mayor parte del contenido buscado por los usuarios. para ello se podrá acceder a un listado en el que aparecerán todas las plataformas de streaming junto al porcentaje de coincidencias de cada una. El porcentaje de coincidencias se calcula en base a que dicha plataforma ofrezca en el momento que un usuario realiza una búsqueda de contenido dicho contenido.
+
 * HU-03: Como usuario, necesito poder analizar la evolución del contenido ofrecido por una plataforma de streaming sobre una línea temporal.
 * HU-04: Como plataforma de streaming, necesito poder conocer las búsquedas de contenido realizadas por los usuarios.
