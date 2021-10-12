@@ -24,3 +24,8 @@ El [primer Milestone](https://github.com/Josalmer/where-to-watch/milestone/1) de
 >Representa a las categorías del contenido del sistema, el contenido podrá pertenecer a una o más categorías.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
+
+* [T-03](https://github.com/Josalmer/where-to-watch/issues/11): Crear modelo Content
+>Representa el contenido digital del sistema, podrá pertenecer a una o más categorías, y podrá ser ofrecido por una o más plataformas de streaming.
+>
+>Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
