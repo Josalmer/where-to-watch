@@ -9,3 +9,4 @@ Se divide la asignatura en Hitos.
 ### Hitos
 
 * [Hito 0](./0)
+* Hito 1: *sin documentación adicional*

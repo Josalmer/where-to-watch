@@ -22,3 +22,19 @@ Se puede ver como **Where To Watch** plantea una solución al respecto en la [do
 ### Documentación adicional
 
 En [cc/0](./cc/0) se puede encontrar la documentación adicional relacionada con el Hito 0 de la asignatura.
+
+## Hito 1
+
+### Historias de usuario
+
+Se definen 4 historias de usuario iniciales en [Historias de Usuario](./documentation/hu.md).
+
+### Planificación
+
+En el documento de [Planificación](./documentation/planning.md) se realiza la planificación de los 3 primeros milestones del proyecto.
+
+En cada uno de ellos se añaden tareas extraídas de las [Historias de Usuario](./documentation/hu.md) previamente especificadas.
+
+### Diseño
+
+En el documento de [Diseño](./documentation/design.md) se puede ver como se ha diseñado el sistema. ([T-01: Diseñar modelo de datos para el sistema](https://github.com/Josalmer/where-to-watch/issues/9))

@@ -49,3 +49,13 @@ Con el sistema interactuarán dos tipos de usuarios (se obvia el rol de administ
 2. Plataformas de streaming: contactan con **Where To Watch** para contratar informes de consumo
 
 * El sistema no precisa de sistema de registro de usuarios
+
+## Historias de Usuario
+
+En el documento de [Historias de Usuario](hu.md) se especifican las distintas Historias de Usuario que describen que es lo que los distintos roles necesitan del proyecto.
+
+## Planificación
+
+En el documento de [Planificación](planning.md) se realiza la planificación de los 3 primeros milestones del proyecto.
+
+En cada uno de ellos se añaden tareas extraídas de las [Historias de Usuario](hu.md) previamente especificadas.
