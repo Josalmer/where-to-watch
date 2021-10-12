@@ -28,3 +28,9 @@ En [cc/0](./cc/0) se puede encontrar la documentación adicional relacionada con
 ### Historias de usuario
 
 Se definen 4 historias de usuario iniciales en [Historias de Usuario](./documentation/hu.md).
+
+### Planificación
+
+En el documento de [Planificación](./documentation/planning.md) se realiza la planificación de los 3 primeros milestones del proyecto.
+
+En cada uno de ellos se añaden tareas extraídas de las [Historias de Usuario](./documentation/hu.md) previamente especificadas.
