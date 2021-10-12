@@ -58,3 +58,8 @@ El [segundo Milestone](https://github.com/Josalmer/where-to-watch/milestone/2) d
 >Representa la interfaz que implementarán cada uno de los servicios de scraping que se implementaran para cada plataforma de streaming.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
+
+* [T-09](https://github.com/Josalmer/where-to-watch/issues/17): Implementar algoritmo de scraping en **Netflix**
+>Implementar el algoritmo particular de scrapeo para **Netflix**, añadirá los próximos lanzamientos (hasta tres meses desde fecha actual) y actualizará las bajas de contenido del sistema.
+>
+>Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
