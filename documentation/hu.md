@@ -18,4 +18,10 @@ En este documento se especifican las distintas **Historias de Usuario** que desc
 * [HU-03](https://github.com/Josalmer/where-to-watch/issues/7): Como usuario, necesito poder analizar la evolución del contenido ofrecido por una plataforma de streaming sobre una línea temporal.
 >Como usuario, necesito poder analizar la evolución del contenido ofrecido por una plataforma de streaming sobre una línea temporal en el que se podrá ver fechas de inicio y fin de emisión de dicho contenido en dicha plataforma de streaming desde el lanzamiento inicial del contenido buscado.
 
-* HU-04: Como plataforma de streaming, necesito poder conocer las búsquedas de contenido realizadas por los usuarios.
+* [HU-04](https://github.com/Josalmer/where-to-watch/issues/8): Como plataforma de streaming, necesito poder conocer las búsquedas de contenido realizadas por los usuarios.
+>Como plataforma de streaming, necesito poder conocer las búsquedas de contenido realizadas por los usuarios para un período de tiempo determinado, pudiendo ser el mismo:
+>- Desde el comienzo de **Where To Watch**
+>- Último año
+>- Último mes
+>- Última semana
+>- Últimas 24 horas
