@@ -2,6 +2,10 @@
 
 El hito 0 tiene como objetivo la puesta a punto de las herramientas de trabajo para la asignatura, así como de git y GitHub.
 
+### Descripción de Where to Watch
+
+Hoy en día hay multitud de plataformas de streaming por internet que ofrecen entretenimiento. Ante dicha oferta, los usuarios a veces se encuentran con el problema de saber en que plataforma pueden encontrar el contenido deseado.
+
 ## git & Github
 
 * Perfil de github ya incluía avatar e información solicitada, se añade compañía
