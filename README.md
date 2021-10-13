@@ -11,18 +11,6 @@ Por ello tendremos dos tipos de documentos:
 * Los relativos al desarrollo y documentación de **Where To Watch**
 * Los relativos a la consecución de los objetivos de la asignatura **Cloud Computing**, todos ellos estarán bajo el directorio [cc](./cc).
 
-## Hito 0
-
-### Descripción de Where to Watch
-
-Hoy en día hay multitud de plataformas de streaming por internet que ofrecen entretenimiento. Ante dicha oferta, los usuarios a veces se encuentran con el problema de saber en que plataforma pueden encontrar el contenido deseado.
-
-Se puede ver como **Where To Watch** plantea una solución al respecto en la [documentación del proyecto](./documentation).
-
-### Documentación adicional
-
-En [cc/0](./cc/0) se puede encontrar la documentación adicional relacionada con el Hito 0 de la asignatura.
-
 ## Hito 1
 
 ### Historias de usuario
@@ -38,3 +26,14 @@ En cada uno de ellos se añaden tareas extraídas de las [Historias de Usuario](
 ### Diseño
 
 En el documento de [Diseño](./documentation/design.md) se puede ver como se ha diseñado el sistema. ([T-01: Diseñar modelo de datos para el sistema](https://github.com/Josalmer/where-to-watch/issues/9))
+
+### Implementación
+
+Se crean las clases esenciales del sistema, sus atributos y métodos (sin implementar).
+>* [T-02: Crear modelo Category](https://github.com/Josalmer/where-to-watch/issues/10)
+>
+>* [T-03: Crear modelo Content](https://github.com/Josalmer/where-to-watch/issues/11)
+>
+>* [T-04: Crear modelo StreamingPlatform](https://github.com/Josalmer/where-to-watch/issues/12)
+>
+>* [T-06: Crear modelo Search](https://github.com/Josalmer/where-to-watch/issues/14)
