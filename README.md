@@ -11,7 +11,11 @@ Por ello tendremos dos tipos de documentos:
 * Los relativos al desarrollo y documentación de **Where To Watch**
 * Los relativos a la consecución de los objetivos de la asignatura **Cloud Computing**, todos ellos estarán bajo el directorio [cc](./cc).
 
-## Hito 1
+## Entrega del 19/10/2021
+
+### User Jorney
+
+Los [User Jorney](./documentation/user-jorney.md) definen la interacción de distintos usuarios con el sistema.
 
 ### Historias de usuario
 
@@ -19,9 +23,7 @@ Se definen 4 historias de usuario iniciales en [Historias de Usuario](./document
 
 ### Planificación
 
-En el documento de [Planificación](./documentation/planning.md) se realiza la planificación de los 3 primeros milestones del proyecto.
-
-En cada uno de ellos se añaden tareas extraídas de las [Historias de Usuario](./documentation/hu.md) previamente especificadas.
+En el documento de [Planificación](./documentation/planning.md) se realiza la planificación de los primeros milestones del proyecto.
 
 ### Diseño
 
@@ -30,10 +32,8 @@ En el documento de [Diseño](./documentation/design.md) se puede ver como se ha 
 ### Implementación
 
 Se crean las clases esenciales del sistema, sus atributos y métodos (sin implementar).
->* [T-02: Crear modelo Category](https://github.com/Josalmer/where-to-watch/issues/10)
+>* [T-02: Preparar lógica necesaria para almacenar las distintas categorías a las que podrá pertenecer el contenido digital](https://github.com/Josalmer/where-to-watch/issues/10)
 >
->* [T-03: Crear modelo Content](https://github.com/Josalmer/where-to-watch/issues/11)
+>* [T-03: Preparar lógica necesaria para almacenar información del contenido digital](https://github.com/Josalmer/where-to-watch/issues/11)
 >
->* [T-04: Crear modelo StreamingPlatform](https://github.com/Josalmer/where-to-watch/issues/12)
->
->* [T-06: Crear modelo Search](https://github.com/Josalmer/where-to-watch/issues/14)
+>* [T-04: Preparar lógica necesaria para almacenar información de las plataformas de streaming](https://github.com/Josalmer/where-to-watch/issues/12)
