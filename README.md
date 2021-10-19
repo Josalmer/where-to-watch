@@ -23,9 +23,7 @@ Se definen 4 historias de usuario iniciales en [Historias de Usuario](./document
 
 ### Planificación
 
-En el documento de [Planificación](./documentation/planning.md) se realiza la planificación de los 3 primeros milestones del proyecto.
-
-En cada uno de ellos se añaden tareas extraídas de las [Historias de Usuario](./documentation/hu.md) previamente especificadas.
+En el documento de [Planificación](./documentation/planning.md) se realiza la planificación de los primeros milestones del proyecto.
 
 ### Diseño
 
@@ -39,5 +37,3 @@ Se crean las clases esenciales del sistema, sus atributos y métodos (sin implem
 >* [T-03: Crear modelo Content](https://github.com/Josalmer/where-to-watch/issues/11)
 >
 >* [T-04: Crear modelo StreamingPlatform](https://github.com/Josalmer/where-to-watch/issues/12)
->
->* [T-06: Crear modelo Search](https://github.com/Josalmer/where-to-watch/issues/14)
