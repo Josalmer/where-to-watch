@@ -11,7 +11,11 @@ Por ello tendremos dos tipos de documentos:
 * Los relativos al desarrollo y documentación de **Where To Watch**
 * Los relativos a la consecución de los objetivos de la asignatura **Cloud Computing**, todos ellos estarán bajo el directorio [cc](./cc).
 
-## Hito 1
+## Entrega del 19/10/2021
+
+### User Jorney
+
+Los [User Jorney](./documentation/user-jorney.md) definen la interacción de distintos usuarios con el sistema.
 
 ### Historias de usuario
 
