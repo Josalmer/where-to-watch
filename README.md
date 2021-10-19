@@ -31,7 +31,7 @@ En el documento de [Diseño](./documentation/design.md) se puede ver como se ha 
 
 ### Implementación
 
-Se crean las clases esenciales del sistema, sus atributos y métodos (sin implementar).
+Se crean las [clases esenciales del sistema](cc.yaml), sus atributos y métodos (sin implementar). A continuación se detallan las issues asociadas a dicho desarrollo:
 >* [T-02: Preparar lógica necesaria para almacenar las distintas categorías a las que podrá pertenecer el contenido digital](https://github.com/Josalmer/where-to-watch/issues/10)
 >
 >* [T-03: Preparar lógica necesaria para almacenar información del contenido digital](https://github.com/Josalmer/where-to-watch/issues/11)
