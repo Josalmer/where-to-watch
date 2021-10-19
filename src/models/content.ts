@@ -2,16 +2,14 @@ import { Category, StreamingPlatform } from '.';
 
 export class Content {
     id: string;
-    code: string;
-    name: string;
+    title: string;
     description: string;
     releasedAt: Date;
     categories: Category[];
 
     constructor(obj: any = {}) {
         this.id = obj.id;
-        this.code = obj.code;
-        this.name = obj.name;
+        this.title = obj.title;
         this.description = obj.description;
         this.releasedAt = obj.releasedAt;
         this.categories = obj.categories;
