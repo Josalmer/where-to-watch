@@ -1,4 +1,3 @@
 Category: src/models/category.js
 Content: src/models/content.js
 StreamingPlatform: src/models/streaming-platform.js
-Search: src/models/search.js
