@@ -32,8 +32,8 @@ En el documento de [Diseño](./documentation/design.md) se puede ver como se ha 
 ### Implementación
 
 Se crean las clases esenciales del sistema, sus atributos y métodos (sin implementar).
->* [T-02: Crear modelo Category](https://github.com/Josalmer/where-to-watch/issues/10)
+>* [T-02: Preparar lógica necesaria para almacenar las distintas categorías a las que podrá pertenecer el contenido digital](https://github.com/Josalmer/where-to-watch/issues/10)
 >
->* [T-03: Crear modelo Content](https://github.com/Josalmer/where-to-watch/issues/11)
+>* [T-03: Preparar lógica necesaria para almacenar información del contenido digital](https://github.com/Josalmer/where-to-watch/issues/11)
 >
->* [T-04: Crear modelo StreamingPlatform](https://github.com/Josalmer/where-to-watch/issues/12)
+>* [T-04: Preparar lógica necesaria para almacenar información de las plataformas de streaming](https://github.com/Josalmer/where-to-watch/issues/12)

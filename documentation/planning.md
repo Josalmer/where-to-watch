@@ -20,23 +20,23 @@ El Milestone [0 - (INTERNO) Diseño e implementación de las clases esenciales d
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
 
-* [T-02](https://github.com/Josalmer/where-to-watch/issues/10): Crear modelo Category
->Representa a las categorías del contenido del sistema, el contenido podrá pertenecer a una o más categorías.
+* [T-02](https://github.com/Josalmer/where-to-watch/issues/10): Preparar lógica necesaria para almacenar las distintas categorías a las que podrá pertenecer el contenido digital
+>Preparar lógica necesaria para almacenar las distintas categorías a las que podrá pertenecer el contenido digital referenciado en el sistema, será identificada por un identificador único y tendrá un nombre.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
 
-* [T-03](https://github.com/Josalmer/where-to-watch/issues/11): Crear modelo Content
->Representa el contenido digital del sistema, podrá pertenecer a una o más categorías, y podrá ser ofrecido por una o más plataformas de streaming.
+* [T-03](https://github.com/Josalmer/where-to-watch/issues/11): Preparar lógica necesaria para almacenar información del contenido digital
+>Preparar lógica necesaria para almacenar información del contenido digital que se podrá buscar en el sistema, debe tener un identificador único (string), el titulo (string), una descripción (string), la fecha de lanzamiento (de tipo Date) y estará asociado a una categoría.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
 
-* [T-04](https://github.com/Josalmer/where-to-watch/issues/12): Crear modelo StreamingPlatform
->Representa en el sistema a las distintas plataformas de Streaming
+* [T-04](https://github.com/Josalmer/where-to-watch/issues/12): Preparar lógica necesaria para almacenar información de las plataformas de streaming
+>Preparar lógica necesaria para almacenar información de las plataformas de streaming que ofrecen el contenido digital, debe tener un identificador único y un nombre, ambos de tipo string.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
 
-* [T-05](https://github.com/Josalmer/where-to-watch/issues/13): Crear relación Content-StreamingPlatform
->Crear relación Content <--> StreamingPlatform
+* [T-05](https://github.com/Josalmer/where-to-watch/issues/13): Preparar lógica necesaria para relacionar el contenido digital con cada plataforma de streaming
+>Preparar lógica necesaria para relacionar el contenido digital con cada plataforma de streaming para un período de terminado.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
 
@@ -44,18 +44,8 @@ El Milestone [0 - (INTERNO) Diseño e implementación de las clases esenciales d
 
 El Milestone [0.1 - (INTERNO) Web Scraping](https://github.com/Josalmer/where-to-watch/milestone/7) tiene como objetivo diseñar e implementar el sistema de scrapeo para obtener los datos necesarios para el sistema.
 
-* [T-08](https://github.com/Josalmer/where-to-watch/issues/16): Crear interfaz del servicio de Scraping
->Representa la interfaz que implementarán cada uno de los servicios de scraping que se implementaran para cada plataforma de streaming.
->
->Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
-
-* [T-09](https://github.com/Josalmer/where-to-watch/issues/17): Implementar algoritmo de scraping en **Netflix**
->Implementar el algoritmo particular de scrapeo para **Netflix**, añadirá los próximos lanzamientos (hasta tres meses desde fecha actual) y actualizará las bajas de contenido del sistema.
->
->Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
-
-* [T-10](https://github.com/Josalmer/where-to-watch/issues/18): Implementar el algoritmo de scraping en **Amazon Prime Video**
->Implementar el algoritmo particular de scrapeo para **Amazon Prime Video**, añadirá los próximos lanzamientos (hasta tres meses desde fecha actual) y actualizará las bajas de contenido del sistema.
+* [T-08](https://github.com/Josalmer/where-to-watch/issues/16): Preparar lógica necesaria para acceder, descargar e identificar contenido desde las webs de las plataformas de streaming
+>Preparar lógica necesaria para acceder, descargar e identificar contenido desde las webs de las plataformas de streaming.
 >
 >Related to: [HU-1](https://github.com/Josalmer/where-to-watch/issues/5), [HU-3](https://github.com/Josalmer/where-to-watch/issues/7)
 
@@ -73,13 +63,13 @@ El Milestone [2 - (MVP) El sistema permite realizar búsquedas por nombre](https
 
 * [HU-01](https://github.com/Josalmer/where-to-watch/issues/5): Como usuario, necesito poder encontrar en que plataformas se esta emitiendo una determinada serie.
 
-* [T-06](https://github.com/Josalmer/where-to-watch/issues/14): Crear modelo Search
->Representa las búsquedas realizadas por los usuarios en el sistema
+* [T-06](https://github.com/Josalmer/where-to-watch/issues/14): Preparar lógica necesaria para almacenar información de las búsquedas que realicen los usuarios
+>Preparar lógica necesaria para almacenar información de las búsquedas que realicen los usuarios, tendrá un identificador único (string), la búsqueda que realizo el usuario (string), la dirección ip desde donde se conecto el usuario (string), la información del agente del usuario (string), el país desde donde se realizo la búsqueda (string) y la fecha de la búsqueda (Date).
 >
 >Related to: [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
 
-* [T-07](https://github.com/Josalmer/where-to-watch/issues/15): Crear relación Seach - StreamingPlatformContent
->Crear relación Search <--> StreamingPlatformContent
+* [T-07](https://github.com/Josalmer/where-to-watch/issues/15): Preparar lógica necesaria para relacionar las búsquedas realizadas por los usuarios con el contenido
+>Preparar lógica necesaria para relacionar las búsquedas realizadas por los usuarios con el contenido que en ese momento ofrecía cada plataforma de streaming.
 >
 >Related to: [HU-2](https://github.com/Josalmer/where-to-watch/issues/6), [HU-4](https://github.com/Josalmer/where-to-watch/issues/8)
 
