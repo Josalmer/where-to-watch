@@ -13,9 +13,9 @@ Por ello tendremos dos tipos de documentos:
 
 ## Entrega del 19/10/2021
 
-### User Jorney
+### User Journey
 
-Los [User Jorney](./documentation/user-jorney.md) definen la interacción de distintos usuarios con el sistema.
+Los [User Journey](./documentation/user-journey.md) definen la interacción de distintos usuarios con el sistema.
 
 ### Historias de usuario
 
