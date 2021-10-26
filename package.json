@@ -1,0 +1,8 @@
+{
+  "name": "where-to-watch",
+  "version": "1.0.0",
+  "description": "Sistema de ayuda para encontrar contenido en las distintas plataformas de streaming.",
+  "scripts": {},
+  "author": "jose.saldana",
+  "dependencies": {}
+}
