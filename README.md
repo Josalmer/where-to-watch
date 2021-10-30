@@ -62,3 +62,7 @@ Se avanza con el desarrollo del sistema.
 >* Issue: [T-03: Preparar lógica necesaria para almacenar información del contenido digital](https://github.com/Josalmer/where-to-watch/issues/11)
 
 Se añaden test que comprueben la correcta implementación de la lógica que almacena información del contenido digital.
+
+>* Issue: [T-04: Preparar lógica necesaria para almacenar información de las plataformas de streaming](https://github.com/Josalmer/where-to-watch/issues/12)
+
+Se añaden test que comprueben la correcta implementación de la lógica que almacena información de las plataformas de Streaming.
