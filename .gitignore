@@ -28,3 +28,6 @@ dist
 
 # Dependency directories
 /node_modules
+
+# Transpiled js files
+/src/models/*.js
