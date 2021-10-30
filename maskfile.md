@@ -16,6 +16,20 @@ rm src/models/*js
 echo "js files removed successfully"
 ~~~
 
+<!-- Install project dependencies -->
+## install
+~~~sh
+echo "Installing dependencies with npm..."
+npm install
+~~~
+
+<!-- Audit project dependencies -->
+## audit
+~~~sh
+echo "Auditing dependencies with npm..."
+npm audit
+~~~
+
 <!-- Run project unit tests -->
 ## test
 ~~~sh

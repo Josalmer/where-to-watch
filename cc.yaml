@@ -1,6 +1,7 @@
 Category: src/models/category.js
 Content: src/models/content.js
 StreamingPlatform: src/models/streaming-platform.js
+StreamingPlatformContent: src/models/streaming-platform-content.js
 lenguaje: typescript
 test: src/tests
 fichero_tareas: maskfile.md
