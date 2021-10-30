@@ -1,12 +1,14 @@
-import { Content } from '.';
+import { Content, StreamingPlatformContent } from '.';
 
 export class StreamingPlatform {
     id: string;
     name: string;
+    contents: StreamingPlatformContent[];
 
     constructor(obj: any = {}) {
         this.id = obj.id;
         this.name = obj.name;
+        this.contents = [];
     }
 
     static createStreamingPlatform(): StreamingPlatform {
@@ -18,7 +20,8 @@ export class StreamingPlatform {
     }
 
     addContent(content: Content, from: Date = new Date()): void {
-        throw new Error("not Implemented");
+        const newContent = new StreamingPlatformContent({content, from});
+        this.contents.push(newContent);
     }
 
     removeContent(content: Content, to: Date = new Date()): void {
