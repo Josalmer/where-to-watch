@@ -35,6 +35,10 @@ Mientras que **Mask** ejecuta ordenes en cualquier lenguaje instalado en el sist
 
 Creamos el [**maskfile.md**](maskfile.md) y añadimos las primeras tareas: **build** y **clean**.
 
+> Para ejecutar las tareas: mask $nombreTarea
+>
+> Por ejemplo: mask build, mask clean, mask test
+
 ### Tests Framework
 
 >* Issue: [Se necesita un entorno para la ejecución de tests](https://github.com/Josalmer/where-to-watch/issues/32)
