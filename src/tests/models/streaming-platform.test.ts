@@ -32,4 +32,26 @@ describe('StreamingPlatform model tests', () => {
         expect(platform.contents[0]).toBeInstanceOf(StreamingPlatformContent);
         expect(platform.contents[0].content).toBe(content);
     })
+
+    it('removeContent fill to field of the active Content identified by it id', () => {
+        const content = new Content({id: 'content_id'});
+        platform.addContent(content, new Date());
+
+        const expirationDate = new Date();
+
+        expect(platform.contents[0].to).toBeUndefined();
+        platform.removeContent({contentId: content.id}, expirationDate);
+        expect(platform.contents[0].to).toBe(expirationDate);
+    })
+
+    it('removeContent fill to field of the active Content identified by it title', () => {
+        const content = new Content({title: 'content_title'});
+        platform.addContent(content, new Date());
+
+        const expirationDate = new Date();
+
+        expect(platform.contents[0].to).toBeUndefined();
+        platform.removeContent({contentTitle: content.title}, expirationDate);
+        expect(platform.contents[0].to).toBe(expirationDate);
+    })
 })

@@ -12,4 +12,8 @@ export class StreamingPlatformContent {
         this.from = obj.from;
         this.to = obj.to;
     }
+
+    active(date = new Date()): boolean {
+        return this.from <= date && (!this.to || this.to >= date);
+    }
 }

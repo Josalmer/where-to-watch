@@ -74,3 +74,5 @@ Para la consecución de esta Issue se realizan las siguientes SubTasks:
 >* Issue: [T-05/1 Es necesario poder añadir contenido digital en una plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/36)
 >
 >* Issue: [T-05/2 Preparar lógica para añadir los detalles del contenido digital para cada plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/37)
+>
+>* Issue: [T-05/3 Es necesario poder dar de baja contenido de una plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/38)
