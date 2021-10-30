@@ -54,4 +54,13 @@ describe('StreamingPlatform model tests', () => {
         platform.removeContent({contentTitle: content.title}, expirationDate);
         expect(platform.contents[0].to).toBe(expirationDate);
     })
+
+    it('getAvailableContent return available (active) content of the platform', () => {
+        const content = new Content({id: 'content_id'});
+        platform.addContent(content, new Date());
+
+        const availableContent = platform.getAvailableContent();
+        expect(availableContent.length).toBe(1);
+        expect(availableContent[0]).toBe(content);
+    })
 })

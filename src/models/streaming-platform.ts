@@ -16,7 +16,9 @@ export class StreamingPlatform {
     }
 
     getAvailableContent(date: Date = new Date()): Content[] {
-        throw new Error("not Implemented");
+        return this.contents.filter(streamingContent => 
+            streamingContent.active(date)
+        ).map(streamingContent => streamingContent.content);
     }
 
     findContentById(id: string, date = null): StreamingPlatformContent[] {
