@@ -42,3 +42,11 @@ Creamos el [**maskfile.md**](maskfile.md) y añadimos las primeras tareas: **bui
 Se realiza una pequeña investigación y se analizan [**mocha**]https://mochajs.org/) y [**jest**](https://jestjs.io/es-ES/), los dos frameworks para tests en javascript más populares del momento.
 
 Ambos son válidos para testear nuestro sistema, aunque me decanto por **Jest** ya que tiene 14.032.673 descargas semanales frente a las 5.515.763 descargas semanales de Mocha.
+
+### Biblioteca de aserciones
+
+>* Issue: [Se necesita una biblioteca de aserciones para realizar las comprobaciones en los tests](https://github.com/Josalmer/where-to-watch/issues/33)
+
+Después de investigar algunas bibliotecas se usará el modulo **Expect** de **Jest** ya que tiene suficientes funciones de validación para las necesidades del proyecto,[ ver tipo de aserciones en la documentación oficial](https://jestjs.io/docs/expect).
+
+Además, esta biblioteca viene incluida en Jest y me evito añadir dependecias adicionales.
