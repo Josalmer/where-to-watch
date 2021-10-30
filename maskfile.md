@@ -15,3 +15,10 @@ echo "Removing generated js files"
 rm src/models/*js
 echo "js files removed successfully"
 ~~~
+
+<!-- Run project unit tests -->
+## test
+~~~sh
+echo "Running tests with jest"
+npx jest
+~~~

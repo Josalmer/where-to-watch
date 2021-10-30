@@ -34,3 +34,11 @@ Gulp y Grunt son especificos de javascript y se deben instalar como dependencias
 Mientras que **Mask** ejecuta ordenes en cualquier lenguaje instalado en el sistema. Por esta razón nos quedamos con Mask.
 
 Creamos el [**maskfile.md**](maskfile.md) y añadimos las primeras tareas: **build** y **clean**.
+
+### Tests Framework
+
+>* Issue: [Se necesita un entorno para la ejecución de tests](https://github.com/Josalmer/where-to-watch/issues/32)
+
+Se realiza una pequeña investigación y se analizan [**mocha**]https://mochajs.org/) y [**jest**](https://jestjs.io/es-ES/), los dos frameworks para tests en javascript más populares del momento.
+
+Ambos son válidos para testear nuestro sistema, aunque me decanto por **Jest** ya que tiene 14.032.673 descargas semanales frente a las 5.515.763 descargas semanales de Mocha.
