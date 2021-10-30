@@ -66,3 +66,11 @@ Se añaden test que comprueben la correcta implementación de la lógica que alm
 >* Issue: [T-04: Preparar lógica necesaria para almacenar información de las plataformas de streaming](https://github.com/Josalmer/where-to-watch/issues/12)
 
 Se añaden test que comprueben la correcta implementación de la lógica que almacena información de las plataformas de Streaming.
+
+>* Issue: [T-05: Preparar lógica necesaria para relacionar el contenido digital con cada plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/13)
+
+Para la consecución de esta Issue se realizan las siguientes SubTasks:
+
+>* Issue: [T-05/1 Es necesario poder añadir contenido digital en una plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/36)
+>
+>* Issue: [T-05/2 Preparar lógica para añadir los detalles del contenido digital para cada plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/37)
