@@ -54,3 +54,11 @@ Ambos son válidos para testear nuestro sistema, aunque me decanto por **Jest** 
 Después de investigar algunas bibliotecas se usará el modulo **Expect** de **Jest** ya que tiene suficientes funciones de validación para las necesidades del proyecto,[ ver tipo de aserciones en la documentación oficial](https://jestjs.io/docs/expect).
 
 Además, esta biblioteca viene incluida en Jest y me evito añadir dependecias adicionales.
+
+### Where To Watch
+
+Se avanza con el desarrollo del sistema.
+
+>* Issue: [T-03: Preparar lógica necesaria para almacenar información del contenido digital](https://github.com/Josalmer/where-to-watch/issues/11)
+
+Se añaden test que comprueben la correcta implementación de la lógica que almacena información del contenido digital.
