@@ -27,3 +27,4 @@ build/Release
 dist
 
 # Dependency directories
+/node_modules

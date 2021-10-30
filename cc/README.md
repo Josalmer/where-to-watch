@@ -8,5 +8,5 @@ Se divide la asignatura en Hitos.
 
 ### Hitos
 
-* [Hito 0](./0)
-* Hito 1: *sin documentación adicional*
+* [Entrega inicial](0.md)
+* [Entrega del 19/10/2021](1.md)
