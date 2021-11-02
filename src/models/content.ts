@@ -20,11 +20,17 @@ export class Content {
     }
 
     addCategory(category: Category): void {
-        throw new Error("not Implemented");
+        if (!this.categories.find(c => c.id === category.id)) {
+            this.categories.push(category);
+        }
     }
 
-    deleteCategory(category: Category): void {
-        throw new Error("not Implemented");
+    deleteCategory({ categoryId = null, categoryName = null }): void {
+        const category = this.categories.find(c => c.id === categoryId || c.name === categoryName);
+
+        if (category) {
+            this.categories = this.categories.filter(c => c.id !== category.id);
+        }
     }
 
     getAvailablePlatforms(date: Date = new Date()): StreamingPlatform[] {
