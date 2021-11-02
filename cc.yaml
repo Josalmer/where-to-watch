@@ -4,5 +4,9 @@ entidad:
   - src/models/streaming-platform.ts
   - src/models/streaming-platform-content.ts
 lenguaje: typescript
-test: src/tests
+test:
+  - src/tests/category.test.ts
+  - src/tests/content.test.ts
+  - src/tests/streaming-platform.test.ts
+  - src/tests/streaming-platform-content.test.ts
 fichero_tareas: maskfile.md
