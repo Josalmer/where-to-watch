@@ -1,4 +1,5 @@
 import { Category, StreamingPlatform } from '.';
+import { streamingPlatformRepository } from '../repositories';
 
 export class Content {
     id: string;
@@ -39,6 +40,11 @@ export class Content {
     }
 
     getAvailablePlatforms(date: Date = new Date()): StreamingPlatform[] {
-        throw new Error("not Implemented");
+        return streamingPlatformRepository.filter(platform => {
+            const contents = platform.contents.filter(c => {
+                return c.content.id === this.id && c.active(date)
+            });
+            return contents.length > 0;
+        });
     }
 }
