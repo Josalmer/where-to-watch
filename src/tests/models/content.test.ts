@@ -47,4 +47,14 @@ describe('Content model tests', () => {
 
         expect(content.categories.length).toBe(1);
     })
+
+    it('deleteCategory should remove the specified category', () => {
+        const category = new Category({id: 'test_id'});
+
+        content.addCategory(category);
+        expect(content.categories.length).toBe(1);
+
+        content.deleteCategory({categoryId: category.id});
+        expect(content.categories.length).toBe(0);
+    })
 })
