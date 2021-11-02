@@ -1,7 +1,8 @@
-Category: src/models/category.ts
-Content: src/models/content.ts
-StreamingPlatform: src/models/streaming-platform.ts
-StreamingPlatformContent: src/models/streaming-platform-content.ts
+entidad:
+  - src/models/category.ts
+  - src/models/content.ts
+  - src/models/streaming-platform.ts
+  - src/models/streaming-platform-content.ts
 lenguaje: typescript
 test: src/tests
 fichero_tareas: maskfile.md
