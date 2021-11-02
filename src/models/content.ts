@@ -20,7 +20,9 @@ export class Content {
     }
 
     addCategory(category: Category): void {
-        throw new Error("not Implemented");
+        if (!this.categories.find(c => c.id === category.id)) {
+            this.categories.push(category);
+        }
     }
 
     deleteCategory(category: Category): void {

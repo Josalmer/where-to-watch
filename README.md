@@ -78,3 +78,7 @@ Para la consecución de esta Issue se realizan las siguientes SubTasks:
 >* Issue: [T-05/3 Es necesario poder dar de baja contenido de una plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/38)
 >
 >* Issue: [T-05/4 Es necesario conocer el contenido disponible en cada plataforma de streaming](https://github.com/Josalmer/where-to-watch/issues/39)
+
+Implementación y tests de la lógica que relaciona el Contenido digital con las distintas categorías
+
+>* Issue: [Es necesario poder indicar a que categoría pertenece cada contenido digital](https://github.com/Josalmer/where-to-watch/issues/43)
