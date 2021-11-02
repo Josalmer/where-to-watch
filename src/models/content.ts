@@ -12,7 +12,7 @@ export class Content {
         this.title = obj.title;
         this.description = obj.description;
         this.releasedAt = obj.releasedAt;
-        this.categories = obj.categories;
+        this.categories = obj.categories || [];
     }
 
     static createContent(): Content {
@@ -23,6 +23,11 @@ export class Content {
         if (!this.categories.find(c => c.id === category.id)) {
             this.categories.push(category);
         }
+    }
+
+    hasCategory({ categoryId = null, categoryName = null }): boolean {
+        const category = this.categories.find(c => c.id === categoryId || c.name === categoryName);
+        return !!category;
     }
 
     deleteCategory({ categoryId = null, categoryName = null }): void {

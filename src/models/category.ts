@@ -1,4 +1,5 @@
 import { Content } from '.';
+import { contentRepository } from '../repositories';
 
 export class Category {
     id: string;
@@ -14,6 +15,6 @@ export class Category {
     }
 
     getContents(): Content[] {
-        throw new Error("not Implemented");
+        return contentRepository.filter(c => c.hasCategory({ categoryId: this.id }));
     }
 }
