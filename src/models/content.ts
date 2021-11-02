@@ -1,4 +1,5 @@
 import { Category, StreamingPlatform } from '.';
+import { streamingPlatformRepository } from '../repositories';
 
 export class Content {
     id: string;
@@ -12,7 +13,7 @@ export class Content {
         this.title = obj.title;
         this.description = obj.description;
         this.releasedAt = obj.releasedAt;
-        this.categories = obj.categories;
+        this.categories = obj.categories || [];
     }
 
     static createContent(): Content {
@@ -25,6 +26,11 @@ export class Content {
         }
     }
 
+    hasCategory({ categoryId = null, categoryName = null }): boolean {
+        const category = this.categories.find(c => c.id === categoryId || c.name === categoryName);
+        return !!category;
+    }
+
     deleteCategory({ categoryId = null, categoryName = null }): void {
         const category = this.categories.find(c => c.id === categoryId || c.name === categoryName);
 
@@ -34,6 +40,11 @@ export class Content {
     }
 
     getAvailablePlatforms(date: Date = new Date()): StreamingPlatform[] {
-        throw new Error("not Implemented");
+        return streamingPlatformRepository.filter(platform => {
+            const contents = platform.contents.filter(c => {
+                return c.content.id === this.id && c.active(date)
+            });
+            return contents.length > 0;
+        });
     }
 }

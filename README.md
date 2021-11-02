@@ -84,3 +84,11 @@ Implementación y tests de la lógica que relaciona el Contenido digital con las
 >* Issue: [Es necesario poder indicar a que categoría pertenece cada contenido digital](https://github.com/Josalmer/where-to-watch/issues/43)
 
 >* Issue: [Es necesario poder eliminar una categoría del contenido digital](https://github.com/Josalmer/where-to-watch/issues/44)
+
+Implementación y tests de la lógica que relaciona Categorías con Contenido digital
+
+>* Issue: [Es necesario obtener todo el contenido de una categoría determinada](https://github.com/Josalmer/where-to-watch/issues/48)
+
+Implementación y tests de la lógica que relaciona Contenido digital con Plataformas de Streaming
+
+>* Issue: [Es necesario conocer las platafomas de streaming que ofrecen el contenido](https://github.com/Josalmer/where-to-watch/issues/49)

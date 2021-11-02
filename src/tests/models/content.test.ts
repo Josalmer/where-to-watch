@@ -1,4 +1,5 @@
-import { Category, Content } from "../../models";
+import { Category, Content, StreamingPlatform } from "../../models";
+import { streamingPlatformRepository } from "../../repositories";
 
 describe('Content model tests', () => {
     let content: Content;
@@ -56,5 +57,16 @@ describe('Content model tests', () => {
 
         content.deleteCategory({categoryId: category.id});
         expect(content.categories.length).toBe(0);
+    })
+
+    it('getAvailablePlatforms should return the streaming platforms that offers the content', () => {
+        expect(content.getAvailablePlatforms().length).toBe(0);
+
+        const platform = new StreamingPlatform({id: 'test_id'});
+
+        platform.addContent(content);
+        streamingPlatformRepository.push(platform);
+
+        expect(content.getAvailablePlatforms().length).toBe(1);
     })
 })
